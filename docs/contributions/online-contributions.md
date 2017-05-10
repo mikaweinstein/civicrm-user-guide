@@ -86,7 +86,8 @@ processors. You can do this by setting up multiple processors, and checking the
 -  If you uncheck the **Contribution Amounts Section Enabled** the remaining fields on this page will vanish. You will only be able accept fixed-amount membership fees, or, if you configure a membership price set, fixed-amount memberships fees and other contributions as specified in the price set all charged in a **single** transaction.
 -  Select a pre-defined **Price Set** (for more complex payment
     options), OR enter up to 10 fixed contribution amounts in the table at the bottom of the page.)
--  You can check **Recurring contributions** if you payment processor and its integration with CiviCRM support recurring billing and you want to allow this feature. (There are restrictions on recurring payments when [membership fees](../membership/defining-memberships) are being paid.) If you check **Recurring contributions** further settings become visible.
+-  You can check **Recurring contributions** if your payment processor and its integration with CiviCRM support recurring billing and you want to allow this feature. (There are restrictions on recurring payments when [membership fees](/membership/defining-memberships) are being paid.) If you check **Recurring contributions** further settings become visible.
+  - You can either set one frequency (e.g. a user can donate their chosen amount monthly) or allow for more user flexibility, where they can decide their own interval and/or number of installations (e.g. a user can donate their chosen amount once every three months for 12 installments).  
 -  Check the **Pledges** box to give users the opportunity to [pledge
     future payments](../pledges/what-is-civipledge).
 -  Decide on the label for the Contribution amount area on your page.
@@ -96,7 +97,7 @@ processors. You can do this by setting up multiple processors, and checking the
 
 ### Memberships tab
 
-This is covered in detail in  [Memberships](../memberships/online-membership-sign-up).
+This is covered in detail in  [Memberships](/membership/online-membership-sign-up).
 
 ### Profile tab
 
@@ -137,7 +138,7 @@ regardless of whether you include any other fields in your profile(s).
 
 Note: If you include a profile with a Home Address at the top of the
 page, CiviCRM automatically generates a checkbox on the front end form
-which allows the user to indicate that their Billing Address and Home 
+which allows the user to indicate that their Billing Address and Home
 Address are the same. (If the Home Address profile is included at the
 bottom of the page, this checkbox will not be generated).
 ![image](../img/Profiles-HomeAddress.jpg)
